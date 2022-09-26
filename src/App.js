@@ -7,7 +7,7 @@ function App() {
     <Router>
       <nav>
         <Link to="/"> HOME </Link>
-        <Link to="/createpost"> Create Post </Link>
+        <Link to="/createpost"> Napravi objavu </Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />

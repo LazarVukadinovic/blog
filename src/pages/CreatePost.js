@@ -17,20 +17,20 @@ const CreatePost = () => {
   return (
     <div className="createPostPage">
       <div className="cpContainer">
-        <h1>Kreiraj Post</h1>
+        <h1>Kreiraj Objavu</h1>
         <div className="inputGp">
           <label> Naslov:</label>
           <input
-            placeholder="Naslov..."
+            placeholder="Naslov objave"
             onChange={(event) => {
               setTitle(event.target.value);
             }}
           />
         </div>
         <div className="inputGp">
-          <label>Post:</label>
+          <label>Tekst:</label>
           <textarea
-            placeholder="Post..."
+            placeholder="Sadrzaj objave"
             onChange={(event) => {
               setPostText(event.target.value);
             }}
